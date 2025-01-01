@@ -11,7 +11,7 @@ This notebook demonstrates a complete pipeline for **video classification** usin
    - Extract frames from videos for spatial analysis.
    
 2. **Feature Extraction with CNNs**:
-   - Use CNNs to extract spatial features from individual frames.
+   - Utilized the Xception CNN due to it's computational efficiency to extract spatial features from individual frames.
    - These features capture the objects and actions within each frame.
 
 3. **Temporal Modeling with RNNs**:
